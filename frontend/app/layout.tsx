@@ -31,9 +31,11 @@ export default function RootLayout({
             lang="en"
             className={`${serif.variable} ${sans.variable} h-full antialiased`}
         >
-            <body className="min-h-full flex flex-col">
+            <body className="min-h-screen flex flex-col">
                 <Nav className="justify-center flex mt-4" />
-                {children}
+
+                <div className="flex-1 flex flex-col">{children}</div>
+
                 <Footer className="justify-center flex mb-4" />
             </body>
         </html>

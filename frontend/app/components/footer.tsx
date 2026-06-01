@@ -6,7 +6,7 @@ type FooterProps = {
 
 export default function Footer({ className }: FooterProps) {
     return (
-        <div className={`${className} gap-4`}>
+        <div className={`${className} gap-4 `}>
             <p className="font-serif text-2xl text-secondary font-bold">
                 JS(P)
             </p>

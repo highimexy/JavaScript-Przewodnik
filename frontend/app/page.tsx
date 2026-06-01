@@ -269,7 +269,7 @@ export const Chapters: Chapter[] = [
 
 export default function Home() {
     return (
-        <div className="min-h-screen w-full bg-background p-8">
+        <div className="min-h-screen w-full p-8">
             <main className="max-w-4xl mx-auto flex flex-col items-center">
                 <div className="w-full border border-primary rounded-lg p-6 bg-card shadow-2xl">
                     <h2 className="font-serif text-2xl text-primary mb-6 border-b border-primary pb-2">
